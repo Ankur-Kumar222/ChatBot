@@ -24,3 +24,6 @@ The provided code implements a chatbot using Streamlit, Hugging Face's Transform
  - Users input queries via the chat interface.
  - The chatbot responds by fetching relevant contexts and providing answers to the queries.
  - Responses are displayed in the chat interface, simulating typing by showing a blinking cursor.
+
+## Note:
+To run the Streamlit app, open terminal in the folder and type: streamlit run RAGBot.py
