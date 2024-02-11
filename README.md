@@ -4,8 +4,8 @@ The provided code implements a chatbot using Streamlit, Hugging Face's Transform
 ## Components:
 ### 1. Models Initialization:
  Two models are initialized:
- RAG (Retrieval-Augmented Generation): It retrieves relevant contexts given a query.
- QA (Question Answering): It answers questions given a context.
+ - RAG (Retrieval-Augmented Generation): It retrieves relevant contexts given a query.
+ - QA (Question Answering): It answers questions given a context.
 ### 2. Text Fetching Function (text_fetch()):
  Given a query text, this function uses the RAG model to find similar contexts.
  It encodes the query, computes its embedding, searches for similar embeddings in the Faiss index, and returns the most similar context if it meets a similarity threshold.
